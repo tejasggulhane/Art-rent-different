@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtRent</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/2cf3de0a2f.js" crossorigin="anonymous"></script></head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="#home"><img class="logo" src="images/logo.png" alt="Logo"></a>
+      <a href="#home">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="category.html">Category</a>
+      <a href="about.html">About</a>
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>   
+  </header>
+  <main>
+    <div class="bgm">
+      <div class="child">
+        <h2 class="hh"><b class="siz">"Art </b><br> is the stored <br><b class="siz">honey</b> <br>of the human <br><b class="siz"> soul."</b><br><i class="aut"> – Theodore Dreiser</i></h2>
+      </div>
+      <div class="child">
+        <img class="painting" src="images/painting.jpeg" alt="image of art">
+      </div>
+    </div>
+    <div class="sperate" ><h1 class="display-4 fw-normal text-body-emphasis">Category </h1>
+    </div>
+    <div class="cat">
+      <div class="box">
+        <h2 class="hh">Realism</h2>
+       <a href="category.html"><img class="PaintPic" src="images/Realism.jpg" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+      <div class="box">
+        <h2 class="hh">Surrealism</h2>
+        <a href="category.html"><img class="PaintPic"  src="images/Surrealism.png" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+      <div class="box">
+        <h2 class="hh">Abstract</h2>
+        <a href="category.html"><img class="PaintPic"  src="images/abstract.jpg" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+      <div class="box">
+        <h2 class="hh">Cubism</h2>
+        <a href="category.html"><img class="PaintPic"  src="images/Cubism.jpeg" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+      <div class="box">
+        <h2 class="hh">Expressionism</h2>
+        <a href="category.html"><img class="PaintPic"  src="images/Expressionism.jpeg" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+      <div class="box">
+        <h2 class="hh">Impressionism</h2>
+        <a href="category.html"><img class="PaintPic" src="images/Impressionism.jpeg" alt="image"></a>
+        <p class="pp">show more</p>
+      </div>
+    </div>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="container">
+            <div class="carousel-caption ">
+              <h1>Leonardo da Vinci</h1>
+              <img class="cp" src="images/leonardo-da-vinci.jpg" alt="image">
+              <p class="opacity-75">Where the spirit does not work with the hand, there is no art.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Pablo Picasso</h1>
+              <img class="cp" src="images/Pablo_picasso_1.jpg" alt="image">
+              <p> It took me my whole life to learn to draw like a child.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Claunde Monet</h1>
+              <img class="cp" src="images/Claude_Monet_1899_Nadar_crop.jpg" alt="image">
+              <p>The richness I achieve comes from nature, the source of my inspiration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+      <p class="fs-5 text-body-secondary">Get effective</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Noob</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹149<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>2 times clealing services</li>
+              <li>28 day limit</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"> <a href="login.html">Sign up for free</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹449<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>3 times clealing services</li>
+              <li>28 day limit</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Ultra Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">₹1149<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>4 times clealing services</li>
+              <li>84 days limit</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2024  ArtRent Inc</p>
+    </footer>
+  </div>
+</body>
+</html>
